@@ -3,7 +3,7 @@ a=float(input("Введите первое число: "))
 b=float(input("Введите второе число: "))
 result=(0) 
 operation=input("Выберите операцию (+, -, *, /): ")
-arr = ["+","-","/","*"]
+arr = ["+","-","/","*"] #что бы выдавало
 if operation == "+":
     result = a+b
 if operation == "-":
